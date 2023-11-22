@@ -14,5 +14,16 @@ header {
 }
 .slider {
   flex: 1;
-  background-color: #00ff00;
+  overflow: hidden;
+}
+.slider--width {
+  height: 100%;
+  display: flex;
+  transition: all ease .3s;
+}
+.slider--item {
+  width: 100vw;
+  height: inherit;
+  background-position: center;
+  background-size: cover;
 }
